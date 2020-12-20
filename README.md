@@ -3,6 +3,8 @@
 
 в общем валялось у меня пару плат с кристалом CS32F103. использовать в своих разработках я бы такое не стал. а в качестве J-Link OB они зашли на ура.
 
+обсуждение данной темы: <a href="http://forum.easyelectronics.ru/viewtopic.php?f=38&t=22589&sid=e274f94c47023de6b87bb92fe10897fe&start=600">http://forum.easyelectronics.ru/viewtopic.php?f=38&t=22589&sid=e274f94c47023de6b87bb92fe10897fe&start=600</a>
+
 <img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/5_%D1%84%D0%BE%D1%82%D0%BE/rev%202.0/P01215-040605.jpg" alt="какашка"> 
 
 <h2>REV 1.0</h2>
