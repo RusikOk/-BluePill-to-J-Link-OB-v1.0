@@ -20,9 +20,14 @@
 
 <h2>BOX</h2>
 
-<a href="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/5_______________/for%20Dobot%20Mooz%202%20-%20PLA.curaprofile">настройки слайсера Ultimaker Cura для генерации G-кода для 3D принтера Dobot Mooz 2</a>
+<a href="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/5_3D%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C/for%20Dobot%20Mooz%202%20-%20PLA.curaprofile">настройки слайсера Ultimaker Cura для генерации G-кода для 3D принтера Dobot Mooz 2</a>
 
 <img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/4_SolidWorks2020/untitled.46.png"> 
-<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/4_SolidWorks2020/untitled.47.png"> 
+<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/4_SolidWorks2020/untitled.47_2.png"> 
+
+
+
+
+
 
 <img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/4_SolidWorks2020/%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D0%B03.JPG"> 
