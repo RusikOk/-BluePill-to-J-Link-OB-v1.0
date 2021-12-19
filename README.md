@@ -1,7 +1,7 @@
 # -BluePill-to-J-Link-OB-v1.0
 успешная попытка создать программатор J-Link OB v1.0 на чипе CS32F103C8T6
 
-в общем валялось у меня макетка пару плат с кристалом CS32F103. использовать в своих разработках я бы такое не стал. а в качестве J-Link OB они зашли на ура.
+в общем валялось у меня пару лет макетка с кристалом CS32F103. использовать в своих разработках я бы такое не стал. а в качестве J-Link OB они зашли на ура.
 
 <img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_%D1%84%D0%BE%D1%82%D0%BE/rev%202.0/P01215-040605.jpg" alt="какашка"> 
 
@@ -20,7 +20,7 @@
 
 <h2>REV 2.0</h2>
 
-особенностью второй версии программатора является возможность запитки целевой платы током до 1А благодаря применению понижающего DC/DC преобразователя напряжения.<br>
+особенностью второй версии программатора является возможность запитки целевой платы током до 1А благодаря применению понижающего DC-DC преобразователя напряжения.<br>
 <br>
 <img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_%D1%84%D0%BE%D1%82%D0%BE/rev%202.0/P01215-040734%20comment.jpg" alt="top"> 
 1) проверить все номиналы резисторов на DC-DC, китайцы могут вариировать номиналы<br>
@@ -39,7 +39,7 @@
 <a href="https://mysensors-rus.github.io/Blue-pill-to-JLink/">Делаем из BluePill пограмматор/отладчик JLink OB-STM32F103</a><br>
 <a href="http://forum.easyelectronics.ru/viewtopic.php?p=650368#p650368">J-Link OB (On-Board)</a><br>
 <a href="http://easyelectronics.ru/malenkaya-xitrost.html">Маленькая хитрость</a><br>
-<a href="http://we.easyelectronics.ru/STM32/cs32f103c8t6-gd32f103cbt6-i-drugie-kitayskie-klony-stm32f103c8t6-i-stm32f030c8t6.html">китайские клоны</a><br>
+<a href="http://we.easyelectronics.ru/STM32/cs32f103c8t6-gd32f103cbt6-i-drugie-kitayskie-klony-stm32f103c8t6-i-stm32f030c8t6.html">китайские клоны STM32</a><br>
 
 <h2>BOX</h2>
 
