@@ -18,6 +18,13 @@
 ссылки:<br>
 <a href="http://forum.easyelectronics.ru/viewtopic.php?p=649897#p649897">J-Link OB (On-Board)</a><br>
 
+<h2>REV 1.1</h2>
+
+<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/3_%D1%81%D1%85%D0%B5%D0%BC%D1%8B/%D0%BC%D0%BE%D1%80%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0.jpg" alt="schematic">
+<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_%D1%84%D0%BE%D1%82%D0%BE/rev%201.0/P20428-160107%20moding.jpg" alt="bottom">
+выявленные недостатки:<br>
+- вход таймера нужно было подключать к SW_DIO чтобы при отключенном target светодиод не моргал.<br>
+
 <h2>REV 2.0</h2>
 
 особенностью второй версии программатора является возможность запитки целевой платы током до 1А благодаря применению понижающего DC-DC преобразователя напряжения.<br>
