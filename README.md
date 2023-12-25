@@ -1,14 +1,14 @@
-# -BluePill-to-J-Link-OB-v1.0
+# programmer-BluePill-to-J-Link-OB-v1.0
 успешная попытка создать программатор J-Link OB v1.0 на чипе CS32F103C8T6
 
 в общем валялось у меня пару лет макетка с кристалом CS32F103. использовать в своих разработках я бы такое не стал. а в качестве J-Link OB они зашли на ура.
 
-<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_%D1%84%D0%BE%D1%82%D0%BE/rev%202.0/P01215-040605.jpg" alt="какашка"> 
+<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_photo/rev%202.0/P01215-040605.jpg" alt="какашка"> 
 
 <h2>REV 1.0</h2>
 
-<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_%D1%84%D0%BE%D1%82%D0%BE/rev%201.0/P01128-204354%20comment.jpg" alt="top"> 
-<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_%D1%84%D0%BE%D1%82%D0%BE/rev%201.0/P01128-204404%20comment.jpg" alt="bottom"> 
+<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_photo/rev%201.0/P01128-204354%20comment.jpg" alt="top"> 
+<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_photo/rev%201.0/P01128-204404%20comment.jpg" alt="bottom"> 
 <br>
 выявленные недостатки:<br>
 - очень бесит когда при обновлении прошивки она тупо слетает в следствии использования мной МК на 64кБ. в идеале нужно использовать МК на 128кБ флешки. хотя если не шляться по чужим компам и постоянно не обновлять библиотеки jLink то жить можно.<br>
@@ -20,8 +20,8 @@
 
 <h2>REV 1.1</h2>
 
-<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/3_%D1%81%D1%85%D0%B5%D0%BC%D1%8B/%D0%BC%D0%BE%D1%80%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0.jpg" alt="schematic">
-<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_%D1%84%D0%BE%D1%82%D0%BE/rev%201.0/P20428-160107%20moding.jpg" alt="bottom">
+<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/3_schematic/%D0%BC%D0%BE%D1%80%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0.jpg" alt="schematic">
+<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_photo/rev%201.0/P20428-160107%20moding.jpg" alt="bottom">
 выявленные недостатки:<br>
 - вход таймера нужно было подключать к SW_DIO чтобы при отключенном target светодиод не моргал.<br>
 
@@ -29,13 +29,13 @@
 
 особенностью второй версии программатора является возможность запитки целевой платы током до 1А благодаря применению понижающего DC-DC преобразователя напряжения.<br>
 <br>
-<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_%D1%84%D0%BE%D1%82%D0%BE/rev%202.0/P01215-040734%20comment.jpg" alt="top"> 
+<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_photo/rev%202.0/P01215-040734%20comment.jpg" alt="top"> 
 1) проверить все номиналы резисторов на DC-DC, китайцы могут вариировать номиналы<br>
 2) не помню перерезана перемычка ADJ с обратной стороны DC-DC или нет. проверить<br>
 3) на синий светодиод SW_CLK желательно поставить транзистор в ключевом режиме дабы по минимуму нагружать вывод МК<br>
-<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_%D1%84%D0%BE%D1%82%D0%BE/rev%202.0/P01215-040827%20comment.jpg" alt="bottom"> 
-<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_%D1%84%D0%BE%D1%82%D0%BE/rev%202.0/P10424-114441.jpg" alt="top"> 
-<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_%D1%84%D0%BE%D1%82%D0%BE/rev%202.0/P10424-114515.jpg" alt="bottom"> 
+<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_photo/rev%202.0/P01215-040827%20comment.jpg" alt="bottom"> 
+<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_photo/rev%202.0/P10424-114441.jpg" alt="top"> 
+<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_photo/rev%202.0/P10424-114515.jpg" alt="bottom"> 
 <br>
 выявленные недостатки:<br>
 - очень бесит когда при обновлении прошивки она тупо слетает в следствии использования мной МК на 64кБ. в идеале нужно использовать МК на 128кБ флешки. хотя если не шляться по чужим компам и постоянно не обновлять библиотеки jLink то жить можно.<br>
@@ -54,5 +54,5 @@
 
 <img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/5_SolidWorks2020/untitled.46.png"> 
 <img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/5_SolidWorks2020/untitled.47_2.png"> 
-<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_%D1%84%D0%BE%D1%82%D0%BE/rev%202.0/P10424-124740.jpg" alt="box"> 
-<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_%D1%84%D0%BE%D1%82%D0%BE/rev%202.0/P10424-124813.jpg" alt="box">
+<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_photo/rev%202.0/P10424-124740.jpg" alt="box"> 
+<img src="https://github.com/RusikOk/-BluePill-to-J-Link-OB-v1.0/blob/main/7_photo/rev%202.0/P10424-124813.jpg" alt="box">
